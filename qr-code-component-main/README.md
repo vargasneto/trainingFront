@@ -1,0 +1,1 @@
+Esse Projeto é na verdade um desafio do Frontend Mentor, que consistia em criar um card, centraliza-lo e possuir um Qr-Code nele. Aprendi como manipular os elementos HTML corretamente e os estilos CSS
