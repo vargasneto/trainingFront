@@ -1,0 +1,63 @@
+body {
+  background-color: var(--Yellow);
+  font-family: "Figtree-Italic", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background-color: var(--White);
+  max-width: 384px;
+  height: 522px;
+  border-radius: 20px;
+  border-bottom: 10px solid var(--Gray-950);
+  border-right: 10px solid var(--Gray-950);
+  border-left: 1px solid var(--Gray-950);
+  border-top: 1px solid var(--Gray-950);
+}
+
+.card-content {
+  padding: 24px;
+}
+.card-img {
+  width: 336px;
+  height: 200;
+  border-radius: 10px;
+}
+
+.text {
+  margin-top: 25px;
+}
+
+.type-card {
+  background-color: var(--Yellow);
+  font-family: "Figtree-Variable";
+  font-weight: bold;
+  width: 80px;
+  padding: 4px 12px;
+  border-radius: 5px;
+  color: var(--Gray-950);
+}
+
+
+.picture {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.picture img {
+  width: 32px;
+  height: 32px;
+  border-radius:30px ;
+}
+
+.card :hover {
+  cursor: pointer;
+  .title-main {
+    color: var(--Yellow);
+  }
+}

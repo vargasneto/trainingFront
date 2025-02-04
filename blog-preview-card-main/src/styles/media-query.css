@@ -1,0 +1,12 @@
+@media screen and (max-width:376px) 
+{
+    .card{
+        max-width: 327px;
+        height: 500px;
+    }
+    
+    .card-img {
+        width: 279px;
+
+    }
+}

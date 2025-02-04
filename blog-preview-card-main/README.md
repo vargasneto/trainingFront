@@ -1,0 +1,1 @@
+Projeto que aborda um card informativo, com detalhes sobre certos conteudos, tendo uma ótima utilidade para estudos. 
