@@ -1,0 +1,1 @@
+    Projeto que visa ser um card com informações referente as redes sociais de uma pessoa.

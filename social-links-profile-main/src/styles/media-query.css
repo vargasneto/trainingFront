@@ -1,0 +1,14 @@
+@media screen and (max-width:376px) 
+{
+
+.card{
+max-width: 320px;
+}
+
+.card img {
+    margin-left: 105px;
+}
+.social{
+    row-gap:1rem;
+}
+}

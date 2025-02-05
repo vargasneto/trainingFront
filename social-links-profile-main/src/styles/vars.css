@@ -1,0 +1,17 @@
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
+}
+@font-face {
+  font-family: "Inter-Variable";
+  src: url(../fonts/Inter-VariableFont_slnt\wght.ttf);
+  font-family: "Inter-Bold";
+  src: url(../fonts/Inter-Bold.ttf);
+  font-family: "Inter-Regular";
+  src: url(../fonts/Inter-Regular.ttf);
+  font-family: "Inter-SemiBold";
+  src: url(../fonts/Inter-SemiBold.ttf);
+}
