@@ -1,0 +1,123 @@
+body {
+  background-color: antiquewhite;
+  font-family: "Outfit", sans-serif;
+  font-size: 8px;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.card {
+  background-color: var(--White);
+  max-width: 320px;
+  border-radius: 16px;
+  margin-left: 10px;
+  padding: 18px;
+}
+
+.card img {
+  width: 320px;
+  height: 140px;
+  border-radius: 8px;
+}
+
+.card .title {
+  margin-bottom: 14px;
+}
+
+.card .title h2 {
+  font-family: "Young Serif", serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card .preparation {
+  background-color: var(--Rose-50);
+  text-decoration: none;
+}
+
+.preparation .title {
+  font-family: "Young serif", serif;
+  margin-left: 10px;
+  color: var(--Rose-800);
+}
+
+.card .preparation li {
+  display: grid;
+  align-items: center;
+  justify-items: left;
+  grid-template-columns: 0fr 1fr;
+  margin-left: 10px;
+}
+
+.preparation li p {
+  margin-left: 2px;
+  font-size: 6px;
+}
+
+.card .ingredients {
+  border-bottom: 1px solid var(--Stone-150);
+}
+
+.ingredients .title {
+  font-family: "Young serif", serif;
+  font-weight: 200;
+  color: var(--Brown-800);
+  margin-bottom: 8px;
+}
+
+.ingredients li {
+  padding: 2px;
+}
+
+.ingredients li::marker {
+  color: var(--Brown-800);
+}
+
+.instructions {
+  border-bottom: 1px solid var(--Stone-150);
+  list-style: decimal;
+}
+
+.instructions .title {
+  font-family: "Young serif", serif;
+  font-weight: 200;
+  color: var(--Brown-800);
+  margin-bottom: 2px;
+}
+
+.instructions span {
+  font-weight: 600;
+  margin-left: 4px;
+}
+
+.instructions li {
+  margin-bottom: 4px;
+}
+
+.instructions li::marker {
+  color: var(--Brown-800);
+}
+
+.nutrition .title {
+  color: var(--Brown-800);
+}
+
+.card .nutrition li {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  text-decoration: none;
+  border-bottom: 1px solid var(--Stone-150);
+}
+
+.nutrition h6 {
+  color: var(--Brown-800);
+}
+
+.nutrition li p {
+  margin: 0px 0px 0px 18px;
+}
